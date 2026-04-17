@@ -52,17 +52,17 @@ const APPS: App[] = [
     description: "Track sales performance and monitor business metrics",
     icon: <TrendingUp className="w-8 h-8" />,
     department: "Operations",
-    url: "#",
+    url: "/sales-monitoring",
     color:
       "bg-gradient-to-br from-emerald-600/10 via-emerald-500/5 to-transparent",
   },
   {
-    id: "payroll",
-    name: "Payroll Engine",
+    id: "billing",
+    name: "Billing System",
     description: "Process payroll, manage benefits, and compensation",
     icon: <DollarSign className="w-8 h-8" />,
     department: "Finance",
-    url: "#",
+    url: "/billing-system",
     color: "bg-gradient-to-br from-amber-600/10 via-amber-500/5 to-transparent",
   },
   {
